@@ -9,8 +9,10 @@ import me.notkronos.meowhack.module.client.HUD;
 import me.notkronos.meowhack.module.combat.ChestplateSwap;
 import me.notkronos.meowhack.module.combat.TotemPopCounter;
 import me.notkronos.meowhack.module.combat.VisualRange;
+import me.notkronos.meowhack.module.misc.AutoMeow;
 import me.notkronos.meowhack.module.misc.ChatSuffix;
 import me.notkronos.meowhack.module.misc.RPC;
+import me.notkronos.meowhack.module.movement.Sprint;
 import me.notkronos.meowhack.module.render.*;
 
 import java.util.Arrays;
@@ -37,6 +39,8 @@ public class ModuleManager extends Manager {
             new Shader(),
             new TotemPopCounter(),
             new VisualRange(),
+            new AutoMeow(),
+            new Sprint(),
             new Weather()
         );
     }
