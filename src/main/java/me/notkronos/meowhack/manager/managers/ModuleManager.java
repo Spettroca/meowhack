@@ -26,6 +26,7 @@ public class ModuleManager extends Manager {
         super("ModuleManager");
         modules = Arrays.asList(
             new Ambience(),
+            new AutoMeow(),
             new ChatSuffix(),
             new ChestplateSwap(),
             new ClickGUIModule(),
@@ -39,7 +40,6 @@ public class ModuleManager extends Manager {
             new Shader(),
             new TotemPopCounter(),
             new VisualRange(),
-            new AutoMeow(),
             new Sprint(),
             new Weather()
         );
